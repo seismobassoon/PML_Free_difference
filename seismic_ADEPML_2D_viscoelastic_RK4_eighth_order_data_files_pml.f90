@@ -226,7 +226,7 @@ program seismic_ADEPML_2D_viscoelastic_RK4_eighth_order
   logical, parameter :: USE_PML_XMIN = .true.
   logical, parameter :: USE_PML_XMAX = .true.
   logical, parameter :: USE_PML_YMIN = .true.
-  logical, parameter :: USE_PML_YMAX = .false.
+  logical, parameter :: USE_PML_YMAX = .true.
 
 ! thickness of the PML layer in grid points
   integer, parameter :: NPOINTS_PML = 10
